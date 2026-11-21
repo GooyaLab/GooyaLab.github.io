@@ -1,0 +1,7 @@
+{{/* contact icons: pass a map/dict with email, homepage, scholar, linkedin */}}
+<div class="icons">
+  {{ with .email }}<a href="mailto:{{ . }}" title="Email">📩</a>{{ end }}
+  {{ with .homepage }}<a href="{{ . }}" target="_blank" rel="noopener" title="Homepage">🏠</a>{{ end }}
+  {{ with .scholar }}<a href="{{ . }}" target="_blank" rel="noopener" title="Google Scholar" class="ic-txt">🎓</a>{{ end }}
+  {{ with .linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" title="LinkedIn" class="ic-in">in</a>{{ end }}
+</div>

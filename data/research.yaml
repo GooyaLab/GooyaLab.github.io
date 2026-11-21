@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────────────────────
+# RESEARCH THEMES — shown with image and text alternating left/right.
+#  image: file in static/images/research/  (jpg, png or gif)
+# ─────────────────────────────────────────────────────────────
+- title: "Digital Cardiac Motion Atlases"
+  image: "/images/research/cardiac-motion.jpeg"
+  text: "The way a heart moves reveals far more than a single static scan. We build Bayesian deep atlases that learn the normal range of cardiac shape and motion from cine MRI, combine it with patient metadata, and flag abnormal motion automatically. Our models — including CardioMorphNet, SegMorph and DragNet — estimate motion, segment the heart, and generate realistic cardiac sequences, supporting earlier and more personalised diagnosis."
+
+- title: "Tumour Growth Modelling and Treatment Response"
+  image: "/images/research/tumour-modelling.jpeg"
+  text: "Brain tumours change their surroundings as they grow, which makes images hard to compare over time. We couple biophysical tumour-growth models with deep learning to segment, register and track glioblastoma across scans, and to predict how a patient will respond to treatment. This line of work builds on our GLISTR framework and continues in the Brain Research UK–funded Biograph project."
+
+- title: "Computational Pathology and Vision-Language Models"
+  image: "/images/research/pathology-vlm.jpeg"
+  text: "Whole-slide histopathology images contain billions of pixels but often only a slide-level label. We develop multiple-instance learning and transformer-based vision-language models that reason across an entire slide, linking tissue patterns to clinical descriptions — from immune subtyping of melanoma to slide-level diagnosis beyond individual patches."
+
+- title: "Trustworthy and Uncertainty-Aware Clinical AI"
+  image: "/images/research/trustworthy-ai.jpeg"
+  text: "For AI to be used in the clinic, it must know when it might be wrong. We design probabilistic and variational models that quantify and disentangle uncertainty, and fuse imaging, dose and clinical data for decision support — predicting radiotherapy toxicity, assessing infant movement, detecting pulmonary embolism, and guiding image-based treatment planning."

@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $t := site.Data.team }}
+<div class="wrap page">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with $t.pi }}
+  <div class="team-row center">{{ partial "member.html" . }}</div>
+  {{ end }}
+  {{ with $t.members }}
+  <h2 class="sec">Research Team</h2>
+  <div class="team-row">{{ range . }}{{ partial "member.html" . }}{{ end }}</div>
+  {{ end }}
+  {{ with $t.alumni }}
+  <h2 class="sec">Alumni</h2>
+  <div class="team-row">{{ range . }}{{ partial "member.html" . }}{{ end }}</div>
+  {{ end }}
+</div>
+{{ end }}

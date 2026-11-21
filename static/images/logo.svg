@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70">
+  <g transform="translate(6,5)">
+    <circle cx="30" cy="30" r="28" fill="#0d5966"/>
+    <circle cx="30" cy="30" r="20" fill="none" stroke="#7fc7cf" stroke-width="2" opacity=".7"/>
+    <path d="M8 32h10l5-12 7 22 6-16 4 6h12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="52" cy="32" r="3.2" fill="#f2b04a"/>
+  </g>
+  <text x="76" y="40" font-family="Georgia,serif" font-size="31" font-weight="700" fill="#093f49">Gooya<tspan fill="#d48a1f"> Lab</tspan></text>
+  <text x="77" y="58" font-family="Segoe UI,Arial,sans-serif" font-size="11.5" letter-spacing="1.2" fill="#5d6b71">MEDICAL IMAGING · AI</text>
+</svg>

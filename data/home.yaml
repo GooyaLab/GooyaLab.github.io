@@ -1,0 +1,29 @@
+# HOME PAGE text
+title: "Gooya Lab"
+tagline: "Probabilistic Deep Learning for Medical Imaging"
+
+announcement:
+  show: true
+  heading: "PhD opportunities"
+  lines:
+    - "<b>We are looking for:</b> PhD students in deep learning and probabilistic / generative modelling for medical imaging and patient metadata."
+    - "<b>Funding:</b> University of Glasgow and external scholarships — see <a href='https://www.gla.ac.uk/scholarships/' target='_blank'>Scholarships</a>."
+    - "<b>How to apply:</b> details on our <a href='/join-us/'>Join Us</a> page."
+
+paragraphs:
+  - icon: "🎯"
+    text: "<b>Our mission</b> is to build machine-learning methods that turn medical images into reliable, interpretable clinical insight — from how a heart moves to how a tumour grows and responds to treatment."
+  - icon: "🏛️"
+    text: "The lab is based in the <b>School of Computing Science</b> at the <b>University of Glasgow</b>. We work closely with clinicians, hospitals and research partners in the UK and internationally so that our methods reach real patients."
+  - icon: "🔬"
+    text: "We focus on <b>deep probabilistic and variational learning</b>. <b>Key research interests are:</b>"
+    list:
+      - "Cardiac image analysis, motion modelling and digital atlases"
+      - "Tumour growth modelling and treatment-response prediction"
+      - "Computational pathology and vision-language models"
+      - "Uncertainty-aware, trustworthy clinical decision support"
+      - "Prediction and marker discovery from imaging and metadata"
+      - "Statistical inference on populations and computational anatomy"
+  - icon: "🎓"
+    call: true
+    text: "Call for <span class='hl'>PhD students</span> and <span class='hl'>visiting researchers</span>. See more details in <a href='/join-us/'>Join Us</a>."

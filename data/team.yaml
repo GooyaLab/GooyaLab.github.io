@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────
+# TEAM — photos go in static/images/team/
+#  role    : shown under the name (add years like "PhD student (2023-)")
+#  email / homepage / linkedin / scholar : optional icons
+#  cosupervisor : co-supervisor name, cosupervisor_url: their page (optional)
+#  photo   : leave out to use the placeholder avatar
+# ─────────────────────────────────────────────────────────────
+pi:
+  name: "Ali Gooya"
+  role: "Principal Investigator"
+  photo: "/images/team/ali-gooya.jpg"
+  email: "Ali.Gooya@glasgow.ac.uk"
+  homepage: "https://www.gla.ac.uk/schools/computing/staff/aligooya/"
+  scholar: "https://scholar.google.com/citations?user=H7w9icgAAAAJ"
+  linkedin: "https://www.linkedin.com/in/ali-gooya-287b44a7/"
+
+members:
+  - name: "Shahabedin Nabavi"
+    role: "Research Associate"
+    photo: "/images/team/shahabedin-nabavi.jpg"
+    homepage: "https://www.gla.ac.uk/schools/computing/staff/shahabedinnabavi/"
+    linkedin: "https://www.linkedin.com/in/shahabedin-nabavi-32a38458/"
+
+  - name: "Abuzar Rezaee"
+    role: "Research Assistant"
+    photo: "/images/team/abuzar-rezaee.jpg"
+    email: "Abuzar.Rezaee@glasgow.ac.uk"
+    homepage: "https://www.gla.ac.uk/schools/computing/staff/abuzarrezaee/"
+    linkedin: "https://www.linkedin.com/in/abuzar-rezaee/"
+
+  - name: "Reza Akbari Movahed"
+    role: "PhD student"
+    photo: "/images/team/reza-akbari-movahed.jpg"
+    homepage: "https://www.gla.ac.uk/pgrs/rezaakbarimovahed"
+    linkedin: "https://www.linkedin.com/in/reza-akbari-movahed/"
+
+  - name: "Zeqi Luo"
+    role: "PhD student"
+    cosupervisor: "Edmond S. L. Ho"
+
+# Former members — uncomment and copy to add:
+alumni: []
+#  - name: "Full Name"
+#    role: "PhD student (2020-2024)"
+#    now: "now Postdoctoral Researcher at ..."
+#    photo: "/images/team/full-name.jpg"

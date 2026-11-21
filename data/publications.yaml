@@ -1,0 +1,161 @@
+# ─────────────────────────────────────────────────────────────
+# PUBLICATIONS — newest first. Copy one block (from "- id:" down) to add a paper.
+#  id     : short name; the thumbnail is  static/images/papers/<id>.jpeg
+#  type   : journal | conference | workshop | review
+#  link   : paper URL (leave out → button searches Google Scholar)
+#  code   : code URL (optional → adds a CODE button)
+#  authors: put lab members in **bold** to highlight them
+# ─────────────────────────────────────────────────────────────
+- id: cardiomorphnet
+  title: "CardioMorphNet: Cardiac Motion Prediction Using a Shape-Guided Bayesian Recurrent Deep Network"
+  authors: "**R. A. Movahed**, **A. Rezaee**, A. Zakeri, C. Berry, E. S. L. Ho, **A. Gooya**"
+  venue: "Medical Image Analysis, vol. 113, 104149"
+  year: 2026
+  type: journal
+
+- id: deep-motion-net
+  title: "Deep-Motion-Net: GNN-Based Volumetric Liver Shape Reconstruction from Single-View 2D Projections"
+  authors: "I. Wijesinghe, M. Nix, A. Zakeri, A. Hokmabadi, B. Al-Qaisieh, **A. Gooya**, Z. Taylor"
+  venue: "International Journal of Computer Assisted Radiology and Surgery (IJCARS), 21(6), 1253–1262"
+  year: 2026
+  type: journal
+
+- id: udf-gma
+  title: "UDF-GMA: Uncertainty Disentanglement and Fusion for General Movement Assessment"
+  authors: "Z. Luo, **A. Gooya**, E. S. L. Ho"
+  venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 30(1), 366–375"
+  year: 2026
+  type: journal
+
+- id: beyond-patches
+  title: "Beyond Patches: Transformer-Aggregated Vision-Language Modeling for Whole-Slide Histopathology"
+  authors: "S. Alamri, **R. Akbari Movahed**, **A. Gooya**"
+  venue: "Medical Image Understanding and Analysis (MIUA)"
+  year: 2026
+  type: conference
+
+- id: shape-matching-tmi
+  title: "An End-to-End Deep Learning Generative Framework for Refinable Shape Matching and Generation"
+  authors: "S. Kalaie, A. Bulpitt, **A. Gooya**, A. F. Frangi"
+  venue: "IEEE Transactions on Medical Imaging (TMI)"
+  year: 2025
+  type: journal
+
+- id: bowel-toxicity
+  title: "Deep Learning Combining Imaging, Dose and Clinical Data for Predicting Bowel Toxicity after Pelvic Radiotherapy"
+  authors: "B. Elhaminia, A. Gilbert, A. Scarsbrook, J. Lilley, A. Appelt, **A. Gooya**"
+  venue: "Physics and Imaging in Radiation Oncology, vol. 33, 100710"
+  year: 2025
+  type: journal
+
+- id: segmorph
+  title: "SegMorph: Concurrent Motion Estimation and Segmentation for Cardiac MRI Sequences"
+  authors: "N. Bi, A. Zakeri, Y. Xia, N. Cheng, Z. A. Taylor, A. F. Frangi, **A. Gooya**"
+  venue: "IEEE Transactions on Medical Imaging (TMI)"
+  year: 2024
+  type: journal
+
+- id: 4d-precise
+  title: "4D-Precise: Learning-Based 3D Motion Estimation and High Temporal Resolution 4DCT Reconstruction from Treatment 2D+t X-ray Projections"
+  authors: "A. Zakeri, A. Hokmabadi, M. G. Nix, **A. Gooya**, I. Wijesinghe, Z. A. Taylor"
+  venue: "Computer Methods and Programs in Biomedicine, vol. 250, 108158"
+  year: 2024
+  type: journal
+
+- id: melanoma-mil
+  title: "Immune Subtyping of Melanoma Whole Slide Images Using Multiple Instance Learning"
+  authors: "L. Godson, N. Alemi, J. Nsengimana, et al., **A. Gooya**"
+  venue: "Medical Image Analysis, vol. 93, 103097"
+  year: 2024
+  type: journal
+
+- id: toxicity-mil
+  title: "Toxicity Prediction in Pelvic Radiotherapy Using Multiple Instance Learning and Cascaded Attention Layers"
+  authors: "B. Elhaminia, A. Gilbert, J. Lilley, M. Abdar, A. F. Frangi, A. Scarsbrook, A. Appelt, **A. Gooya**"
+  venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 27(4), 1958–1966"
+  year: 2023
+  type: journal
+
+- id: dragnet
+  title: "DragNet: Learning-Based Deformable Registration for Realistic Cardiac MR Sequence Generation from a Single Frame"
+  authors: "A. Zakeri, A. Hokmabadi, N. Bi, et al., **A. Gooya**"
+  venue: "Medical Image Analysis, vol. 83, 102678"
+  year: 2023
+  type: journal
+
+- id: radiotherapy-review
+  title: "Deep Learning for Radiotherapy Outcome Prediction Using Dose Data – A Review"
+  authors: "A. L. Appelt, B. Elhaminia, **A. Gooya**, A. Gilbert, M. Nix"
+  venue: "Clinical Oncology, 34(2), e87–e96"
+  year: 2022
+  type: review
+
+- id: cardiac-anomaly
+  title: "A Probabilistic Deep Motion Model for Unsupervised Cardiac Shape Anomaly Assessment"
+  authors: "A. Zakeri, A. Hokmabadi, N. Ravikumar, A. F. Frangi, **A. Gooya**"
+  venue: "Medical Image Analysis, vol. 75, 102276"
+  year: 2022
+  type: journal
+
+- id: monuseg
+  title: "A Multi-Organ Nucleus Segmentation Challenge"
+  authors: "N. Kumar, et al., **A. Gooya**, et al."
+  venue: "IEEE Transactions on Medical Imaging (TMI), 39(5), 1380–1391"
+  year: 2020
+  type: journal
+
+- id: ukbiobank-cmr
+  title: "Quantitative CMR Population Imaging on 20,000 Subjects of the UK Biobank Imaging Study: LV/RV Quantification Pipeline and its Evaluation"
+  authors: "R. Attar, et al., **A. Gooya**, et al."
+  venue: "Medical Image Analysis, vol. 56, 26–42"
+  year: 2019
+  type: journal
+
+- id: lv-coverage
+  title: "Automatic Assessment of Full Left Ventricular Coverage in Cardiac Cine MRI with Fisher-Discriminative 3-D CNN"
+  authors: "L. Zhang, **A. Gooya**, M. Pereanez, et al."
+  venue: "IEEE Transactions on Biomedical Engineering (TBME), 66(7), 1975–1986"
+  year: 2019
+  type: journal
+
+- id: gcpd-diffusion
+  title: "Generalised Coherent Point Drift for Group-Wise Multi-Dimensional Analysis of Diffusion Brain MRI Data"
+  authors: "N. Ravikumar, **A. Gooya**, L. Beltrachini, A. F. Frangi, Z. A. Taylor"
+  venue: "Medical Image Analysis, vol. 53, 47–63"
+  year: 2019
+  type: journal
+
+- id: dermoscopy-saliency
+  title: "Supervised Saliency Map Driven Segmentation of Lesions in Dermoscopic Images"
+  authors: "M. Jahanifar, N. Zamani Tajeddin, B. Mohammadzadeh Asl, **A. Gooya**"
+  venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 23(2), 509–518"
+  year: 2019
+  type: journal
+
+- id: bayesian-polytrees
+  title: "Bayesian Polytrees with Learned Deep Features for Multi-Class Cell Segmentation"
+  authors: "H. Fehri, **A. Gooya**, Y. Lu, E. Meijering, S. A. Johnston, A. F. Frangi"
+  venue: "IEEE Transactions on Image Processing (TIP), 28(7), 3246–3260"
+  year: 2019
+  type: journal
+
+- id: glistr
+  title: "GLISTR: Glioma Image Segmentation and Registration"
+  authors: "**A. Gooya**, et al."
+  venue: "IEEE Transactions on Medical Imaging (TMI)"
+  year: 2012
+  type: journal
+
+- id: tumor-growth-registration
+  title: "Joint Segmentation and Deformable Registration of Brain Scans Guided by a Tumor Growth Model"
+  authors: "**A. Gooya**, et al."
+  venue: "Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+  year: 2011
+  type: conference
+
+- id: vascular-regularization
+  title: "A Variational Method for Geometric Regularization of Vascular Segmentation in Medical Images"
+  authors: "**A. Gooya**, et al."
+  venue: "IEEE Transactions on Image Processing (TIP)"
+  year: 2008
+  type: journal

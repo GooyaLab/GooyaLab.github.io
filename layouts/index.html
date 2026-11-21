@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ $h := site.Data.home }}
+<section class="hero" style="background-image:url('{{ site.Params.banner | relURL }}')">
+  {{ with $h.announcement }}{{ if .show }}
+  <div class="announce">
+    <h3><span class="flame">✨</span> {{ .heading }}</h3>
+    {{ range .lines }}<p>{{ . | safeHTML }}</p>{{ end }}
+  </div>
+  {{ end }}{{ end }}
+</section>
+
+<div class="wrap">
+  <section class="welcome">
+    <h1>{{ $h.title }}</h1>
+    <p class="tagline">{{ $h.tagline }}</p>
+    <div class="two-col">
+      <div class="left">
+        {{ range $h.paragraphs }}
+        <div class="ipara{{ if .call }} call{{ end }}">
+          <span class="ico">{{ .icon }}</span>
+          <div>
+            <p>{{ .text | safeHTML }}</p>
+            {{ with .list }}<ul>{{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}</ul>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{ with site.Data.director }}
+      <aside class="profile">
+        <img src="{{ .photo | relURL }}" alt="{{ .name }}">
+        <h3>{{ .name }}</h3>
+        {{ range .roles }}
+        <p class="role">{{ .title | safeHTML }}</p>
+        {{ with .at }}<p class="at">@ {{ . | safeHTML }}</p>{{ end }}
+        {{ end }}
+        {{ partial "icons.html" . }}
+      </aside>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="news">
+    <h2>News</h2>
+    <div class="news-list">
+      {{ range site.Data.news }}
+      <div class="news-item"><span class="news-date">{{ .date }}</span><span class="news-text">{{ .text | safeHTML }}</span></div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

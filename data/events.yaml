@@ -1,0 +1,39 @@
+# ─────────────────────────────────────────────────────────────
+# EVENTS — newest first. Photos in static/images/events/
+#  images: 1 or more photos → several photos become a slideshow
+# ─────────────────────────────────────────────────────────────
+- title: "Biograph project funded"
+  date: "2026"
+  place: "Glasgow, UK"
+  images: ["/images/events/biograph2026_1.jpg", "/images/events/biograph2026_2.jpg"]
+  text: "Our new Brain Research UK project, Biograph, runs from 2026 to 2029. It combines biophysical tumour-growth modelling with deep learning to predict treatment response in glioblastoma."
+
+- title: "TRUST-PE project awarded"
+  date: "2026"
+  place: "Glasgow, UK"
+  images: ["/images/events/trustpe2026_1.jpg"]
+  text: "Funded by Chui-Hub (UKRI), TRUST-PE develops trustworthy AI for pulmonary embolism detection and surgical planning (2026–2027)."
+
+- title: "Paper accepted at MIUA 2026"
+  date: "2026"
+  place: "MIUA 2026"
+  images: ["/images/events/miua2026_1.jpg", "/images/events/miua2026_2.jpg"]
+  text: "“Beyond Patches”, our transformer-aggregated vision-language model for whole-slide histopathology, was accepted at Medical Image Understanding and Analysis 2026."
+
+- title: "JSPS Invitational Fellowship visit"
+  date: "2025"
+  place: "Tohoku University, Japan"
+  images: ["/images/events/jsps2025_1.jpg", "/images/events/jsps2025_2.jpg", "/images/events/jsps2025_3.jpg"]
+  text: "Dr Ali Gooya visited Tohoku University on a JSPS Short-Term Invitational Fellowship, strengthening our collaborations in medical image computing in Japan."
+
+- title: "CAICAM project"
+  date: "2024"
+  place: "University of Glasgow, UK"
+  images: ["/images/events/caicam2024_1.jpg"]
+  text: "With EPSRC Impact Acceleration funding, CAICAM brought our cardiac motion-abnormality models to the cloud, making MRI-based assessment easier to use in practice (2024–2025)."
+
+- title: "Lab moves to the University of Glasgow"
+  date: "2022"
+  place: "Glasgow, UK"
+  images: ["/images/events/glasgow2022_1.jpg"]
+  text: "Dr Gooya joined the School of Computing Science at the University of Glasgow, after earlier posts at the Universities of Leeds and Sheffield."

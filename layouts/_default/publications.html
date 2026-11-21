@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="wrap page">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Content }}<div class="prose intro">{{ . }}</div>{{ end }}
+  {{ $year := 0 }}
+  <div class="pub-list">
+  {{ range site.Data.publications }}
+    {{ if ne .year $year }}{{ $year = .year }}<div class="pub-year">{{ .year }}</div>{{ end }}
+    {{ $link := .link | default (printf "https://scholar.google.com/scholar?q=%s" (urlquery .title)) }}
+    <article class="pub">
+      <div class="pub-img"><img src="{{ (printf "/images/papers/%s.jpeg" .id) | relURL }}" alt="{{ .title }}" loading="lazy"></div>
+      <div class="pub-body">
+        <h3><a href="{{ $link }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
+        <p class="pub-authors">{{ .authors | markdownify }}</p>
+        <p class="pub-venue">{{ .venue }}, {{ .year }}. {{ with .type }}<span class="badge {{ . }}">{{ . }}</span>{{ end }}</p>
+        <div class="pub-btns">
+          <a class="btn" href="{{ $link }}" target="_blank" rel="noopener">Paper</a>
+          {{ with .code }}<a class="btn" href="{{ . }}" target="_blank" rel="noopener">Code</a>{{ end }}
+        </div>
+      </div>
+    </article>
+  {{ end }}
+  </div>
+</div>
+{{ end }}

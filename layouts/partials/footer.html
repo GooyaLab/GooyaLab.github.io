@@ -1,0 +1,10 @@
+{{ with site.Data.partners }}
+<section class="partners">
+  {{ range . }}
+  <a class="partner" href="{{ .url }}" target="_blank" rel="noopener">{{ with .logo }}<img src="{{ . | relURL }}" alt="partner logo">{{ else }}{{ .name }}{{ end }}</a>
+  {{ end }}
+</section>
+{{ end }}
+<footer class="footer">
+  <span>&copy; {{ now.Year }} {{ site.Title }} · School of Computing Science, University of Glasgow</span>
+</footer>

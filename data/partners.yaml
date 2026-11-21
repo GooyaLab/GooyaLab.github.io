@@ -1,0 +1,10 @@
+# Partner / funder strip above the footer.
+# Add  logo: "/images/logos/name.png"  to show a logo instead of the name.
+- name: "University of Glasgow"
+  url: "https://www.gla.ac.uk/"
+- name: "EPSRC"
+  url: "https://www.ukri.org/councils/epsrc/"
+- name: "Brain Research UK"
+  url: "https://www.brainresearchuk.org.uk/"
+- name: "UKRI"
+  url: "https://www.ukri.org/"

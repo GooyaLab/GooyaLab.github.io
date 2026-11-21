@@ -1,0 +1,14 @@
+# Lab director card on the home page
+name: "Ali Gooya, Ph.D."
+photo: "/images/team/ali-gooya.jpg"
+roles:
+  - title: "Lead, Gooya Lab"
+  - title: "Senior Lecturer in Machine Learning"
+    at: "<a href='https://www.gla.ac.uk/schools/computing/' target='_blank'>School of Computing Science</a><br><a href='https://www.gla.ac.uk/' target='_blank'>University of Glasgow</a>"
+  - title: "Associate Editor"
+    at: "IEEE Transactions on Medical Imaging"
+  - title: "Former Alan Turing Institute Fellow"
+email: "Ali.Gooya@glasgow.ac.uk"
+homepage: "https://www.gla.ac.uk/schools/computing/staff/aligooya/"
+scholar: "https://scholar.google.com/citations?user=H7w9icgAAAAJ"
+linkedin: "https://www.linkedin.com/in/ali-gooya-287b44a7/"

@@ -1,0 +1,11 @@
+<div class="member">
+  <img src="{{ (.photo | default "/images/team/placeholder.jpg") | relURL }}" alt="{{ .name }}">
+  <h3>{{ .name }}</h3>
+  <p class="m-role">{{ .role }}</p>
+  {{ with .now }}<p class="m-now">{{ . }}</p>{{ end }}
+  <div class="m-links">
+    {{ partial "icons.html" . }}
+    {{ $url := .cosupervisor_url }}
+    {{ with .cosupervisor }}<span class="with">with {{ if $url }}<a href="{{ $url }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}</span>{{ end }}
+  </div>
+</div>

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="wrap page">
+  <h1 class="page-title">{{ .Title }}</h1>
+  <div class="events">
+    {{ range site.Data.events }}
+    <article class="event">
+      <div class="slider">
+        {{ range $i, $img := .images }}<img src="{{ $img | relURL }}" alt="event photo {{ add $i 1 }}"{{ if eq $i 0 }} class="on"{{ end }}>{{ end }}
+        {{ if gt (len .images) 1 }}<button class="prev" aria-label="Previous">‹</button><button class="next" aria-label="Next">›</button><div class="dots">{{ range .images }}<i></i>{{ end }}</div>{{ end }}
+      </div>
+      <div class="ev-body">
+        <h3>{{ .title }}</h3>
+        <p class="ev-meta"><span class="ev-date">{{ .date }}</span> · {{ .place }}</p>
+        <p>{{ .text | safeHTML }}</p>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
